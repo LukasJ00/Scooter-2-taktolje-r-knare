@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script> 
+    <link rel="stylesheet" href="style.css">
+    <title>Scooter 2-taktolje räknare </title>
+</head>
+<body>
+    <img src="lambrettaclub.png" alt="">
+    <h1>Scooter 2-taktolje räknare </h1>
+    <div class="container">
+    <div id="Olja"> Olja i procent
+      <select name="procent" id="procent">
+        <option value=".02 " selected>2%</option>
+        <option value=".03">3%</option>
+        <option value=".04">4%</option>
+        <option value=".05">5%</option>
+        <option value=".06">6%</option>
+      </select>
+    </div>
+
+    <div class="bensin">Antal liter bensin</div>
+    <div>
+      <input type="text" id="liter" />
+    </div>
+
+    <button onclick="calculateOil()">Beräkna</button>
+    <div id="result"></div>
+  </div>
+
+
+  <img src="lambretta.jpg" alt="" class="lambretta">
+
+
+</body>
+</html>
